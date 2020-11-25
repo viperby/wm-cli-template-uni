@@ -1,0 +1,39 @@
+@import "../../common/mixins.scss";
+@import "../../common/var.scss";
+
+@include b(block) {
+	position: relative;
+	display: inline-block;
+	width: 155px;
+	height: 155px;
+	@include e(box){
+		background: url('/static/image/border.png') no-repeat;
+		background-size: 100%;
+		display: inline-block;
+		position: absolute;
+		padding:50px 45px 38px 45px;
+		width: 100%;
+		height: 100%;
+		top:0;
+		left: 0;
+		text-align: center;
+		z-index: 1;
+	}
+	@include e(socure){
+		top:50%;
+		left:50%;
+		box-shadow: 0px 0px 15px 10px #fff;
+		position: absolute;
+		z-index: 0;
+	}
+	@include e(content){
+		width:100%;
+		height: 26px;
+		display: inline-block;
+		text-align: center;
+		@include m(image){
+			height: 100%;
+		}
+	}
+	
+}

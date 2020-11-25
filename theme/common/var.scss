@@ -1,0 +1,45 @@
+/*基础样式定义*/
+
+/*颜色定义*/
+$color-white:#fff !default
+$color-light:#f7f7f7 !default;
+$color-light2:#ccc !default;
+$color-light3:#999 !default;
+$color-dark:#444 !default;
+$color-dark2:#555 !default;
+
+$color-blue:#37beff !default;
+
+$color-grey:#666 !default
+$color-info:#ade6ff !default;
+$color-warn:#f0ad4e !default;
+$color-primary:#108ce7 !default;
+$color-error:#ff3333 !default;
+$color-red:#ff3333 !default;
+$color-success:#42b983 !default;
+
+$color-yellow:#f0ad4e !default;
+$color-yellow2:#f4cf5b !default;
+
+/*字体相关定义*/
+$font-color-global:$color-dark !default;
+$font-color-pivotal:$color-info !default;
+$font-color-secondary:$color-grey !default;
+$font-color-anti:$color-white !default;
+
+$font-size-title:36rpx !default;
+$font-size-default:28rpx !default;
+$font-size-pivotal:30rpx !default;
+$font-size-descriptive:24rpx !default;
+$font-size-small:22rpx !default;
+$font-weight-pivotal:600 !default;
+
+/*边框定义*/
+$border-color-default:$color-light !default;
+$border-default:1rpx solid $border-color-default !default;
+$border-radius-default:6rpx !default;
+$border-box-shadow:1rpx 1rpx 15rpx 1rpx $color-grey !default;
+/*内边距相关定义*/
+$padding-default:25rpx 15rpx !default;
+$padding-small:14rpx 6rpx !default;
+$padding-mini:12rpx 14rpx !default;
