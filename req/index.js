@@ -58,6 +58,7 @@ function getXML(jsonObj, root) {
 // 请求拦截器
 http.interceptors.request=(request) => {
 	// 添加自定义header
+	request.header['AppAlias'] = conf.alias;
 	request.header['DeviceId'] = uni.getStorageSync('DeviceId')
 	request.header['AccessToken'] = uni.getStorageSync('AccessToken')
 	/*if(request.header['Xml'] === 'true'){

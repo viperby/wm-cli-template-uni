@@ -1,4 +1,5 @@
 module.exports = {
+	alias:"",
 	model:"user",
 	serves:{
 		user:{
